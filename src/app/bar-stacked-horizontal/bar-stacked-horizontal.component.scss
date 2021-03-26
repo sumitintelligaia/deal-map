@@ -1,0 +1,24 @@
+body{
+    .kpi {
+        :not(.chart_pie){
+            svg {
+                overflow: visible;
+                :not(:root){
+                    font-size: 12px;
+                    max-width: 100%;
+                    overflow: visible;
+                }
+                text {
+                    cursor: pointer !important;
+                }
+            }
+        }
+    }
+}
+.chart_bar_stacked_horizontal{overflow: hidden;}
+
+.scrollContainer {
+  overflow: scroll;
+  height: 250px;
+  overflow-x: hidden;
+}
